@@ -11,6 +11,7 @@
 
 - React 版本：使用 React 技术栈，版本为 `React 18.2`。
 - 组件类型：优先使用函数式组件，不能使用 TypeScript，不要使用 React.memo。
+- 组件使用：默认使用 `src/components/ui` 目录下的组件。
 - 命名规范：组件名称必须以大写字母开头，并遵循驼峰命名法。
 - HTML 处理：使用面向 SEO 友好、有语义的 HTML 标签。
 - 样式处理：

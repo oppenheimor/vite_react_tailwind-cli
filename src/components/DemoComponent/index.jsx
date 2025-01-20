@@ -29,7 +29,9 @@ export const props = {
  */
 export default function DemoComponent(props) {
   return (
-    <div className="text-center text-2xl bg-red-500">
+    <div
+      className="text-center text-base text-white font-bold rounded-sm w-[200px] h-[50px] flex items-center justify-center"
+      style={{ background: 'linear-gradient(to right, rgb(255, 96, 52), rgb(238, 10, 36))' }}>
       <h1>hello {props.showName || 'world'}</h1>
     </div>
   );
